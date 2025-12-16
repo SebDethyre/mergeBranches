@@ -52,7 +52,7 @@ Interactive GTK TreeView interface for merging SVN branches (Subversion).
 ```bash
 gcc -o svn_merger svn_merger.c `pkg-config --cflags --libs gtk+-3.0` -lX11
 ```
-
+  
 ## ▶️ Run:
 
 ./svn_merger
