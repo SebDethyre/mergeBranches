@@ -136,7 +136,7 @@ gcc -o svn_merger svn_merger.c `pkg-config --cflags --libs gtk+-3.0` -lX11
 ## 📝 Remarques
 
 Les branches avec des suffixes spéciaux sont traitées différemment pour les messages de fusion.  
-L'application dépend de scripts et fichiers de configuration externes situés dans ``/home/sdethyre/sandbox/dash_dev_boisson/```.
+L'application dépend de scripts et fichiers de configuration externes situés dans `/home/sdethyre/sandbox/dash_dev_boisson/`.
 
 ---
 
