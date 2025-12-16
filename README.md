@@ -70,7 +70,7 @@ To be defined.
 
 ## 👤 Author
 
-Project developed as an advanced tooling initiative around Robot Framework by Sébastien Dethyre.
+Project developed as an advanced tooling initiative around Subversion versioning by Sébastien Dethyre.
 
 ## 🤝 Contributions
 
@@ -150,7 +150,7 @@ L'application dépend de scripts et fichiers de configuration externes situés d
 
 ## 👤 Auteur
 
-Projet développé dans un objectif d’outillage avancé autour de Robot Framework par Sébastien Dethyre.
+Projet développé dans un objectif d’outillage avancé autour versioning Subversion par Sébastien Dethyre.
 
 ---
 
