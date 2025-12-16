@@ -1,8 +1,6 @@
 # mergeBranches
 
-**Languages:**  
-- [English](#-english)  
-- [Français](#-français)
+**Languages:**  [🇬🇧 EN](#-english) / [🇫🇷 FR](#-français)
 
 ---
 
@@ -54,13 +52,13 @@ gcc -o svn_merger svn_merger.c `pkg-config --cflags --libs gtk+-3.0` -lX11
 ```
   
 ## ▶️ Run:
-
+```bash
 ./svn_merger
-
+```
 ## 📝 Notes
 
 Branches with special suffixes are treated differently for merge messages.  
-The application relies on external scripts and configuration files located in /home/sdethyre/sandbox/dash_dev_boisson/.
+The application relies on external scripts and configuration files located in ```/home/sdethyre/sandbox/dash_dev_boisson/```.
 
 ---
 
@@ -132,13 +130,13 @@ gcc -o svn_merger svn_merger.c `pkg-config --cflags --libs gtk+-3.0` -lX11
 ```
 
 ## ▶️ Exécuter :
-
+```bash
 ./svn_merger
-
+```
 ## 📝 Remarques
 
 Les branches avec des suffixes spéciaux sont traitées différemment pour les messages de fusion.  
-L'application dépend de scripts et fichiers de configuration externes situés dans /home/sdethyre/sandbox/dash_dev_boisson/.
+L'application dépend de scripts et fichiers de configuration externes situés dans ``/home/sdethyre/sandbox/dash_dev_boisson/```.
 
 ---
 
