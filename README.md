@@ -12,7 +12,7 @@
 
 This application provides a graphical interface to easily merge two Subversion (SVN) branches. It allows developers to visually select the source and target branches and perform a merge in a terminal.
 
-## ✨ Features
+## ✨ Features
 
 Interactive GTK TreeView interface for merging SVN branches (Subversion).
   
@@ -35,7 +35,7 @@ Interactive GTK TreeView interface for merging SVN branches (Subversion).
 - Clicking the Merge button runs the appropriate SVN merge command in a terminal.
 - Opens a terminal displaying the correct string/commit for merging a development branch into an integration branch, and vice versa
 
-## 📦 Requirements
+## 📦 Requirements
 
 - GTK3
 - xdotool
@@ -53,11 +53,11 @@ Interactive GTK TreeView interface for merging SVN branches (Subversion).
 gcc -o svn_merger svn_merger.c `pkg-config --cflags --libs gtk+-3.0` -lX11
 ```
   
-## ▶️ Run:
+## ▶️ Run:
 
 ./svn_merger
 
-## 📝 Notes
+## 📝 Notes
 
 Branches with special suffixes are treated differently for merge messages.  
 The application relies on external scripts and configuration files located in /home/sdethyre/sandbox/dash_dev_boisson/.
@@ -72,7 +72,7 @@ To be defined.
 
 Project developed as an advanced tooling initiative around Subversion versioning by Sébastien Dethyre.
 
-## 🤝 Contributions
+## 🤝 Contributions
 
 Contributions, suggestions, and feedback are welcome.  
 Feel free to open an issue or submit a pull request.
@@ -97,7 +97,7 @@ Interface GTK TreeView interactive pour la fusion de branches SVN (Subversion).
 - Génération automatique de la commande SVN merge.
 - Ouverture d'un terminal GNOME pour exécuter la fusion et afficher la sortie.
 
-## ⌨️ Raccourcis clavier :
+## ⌨️ Raccourcis clavier :
 
 - Escape ou X → Quitter l'application.
 - Flèche droite ou Tabulation → Déplacer le focus vers le TreeView suivant.
@@ -112,7 +112,7 @@ Interface GTK TreeView interactive pour la fusion de branches SVN (Subversion).
 - Cliquer sur le bouton Merge exécute la commande SVN merge appropriée dans un terminal.
 - Ouvre un terminal affichant la bonne string/commit contenant le merge d'une branche de développement vers celle d'intégration, et inversement.
 
-## 📦 Prérequis
+## 📦 Prérequis
 
 - GTK3
 - xdotool
